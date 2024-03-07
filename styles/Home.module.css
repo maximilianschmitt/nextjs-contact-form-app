@@ -1,0 +1,66 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 4vw;
+	min-height: 100vh;
+}
+
+.main > p {
+	margin-top: 2rem;
+}
+
+.main a {
+	color: blue;
+	text-decoration: underline;
+}
+
+.main form {
+	border: 2px solid black;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	width: 100%;
+	max-width: 640px;
+	padding: 2rem;
+	align-items: flex-start;
+}
+
+.main form label {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.main form label span {
+	margin-bottom: 0.25rem;
+}
+
+.main input {
+	padding: 1rem;
+	border: 2px solid black;
+	font-size: 1rem;
+	width: 100%;
+}
+
+.main textarea {
+	padding: 1rem;
+	border: 2px solid black;
+	font-size: 1rem;
+	min-height: 240px;
+	width: 100%;
+}
+
+.main button {
+	background: black;
+	color: white;
+	padding: 1rem 2rem;
+	font-size: 1rem;
+	border: 0;
+	width: auto;
+}
+
+.main button:disabled {
+	opacity: 0.5;
+}
